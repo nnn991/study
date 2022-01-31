@@ -75,6 +75,7 @@ return 값;
                 - ...  
                 return "이름";  
                 }  
+                  
             2. 개명했으니 이름 수정해 주세요  
                 - 새로운 데이터 줄테니 이 정보로 변경  
                 - argument 필수  
@@ -93,6 +94,7 @@ return 값;
     String s;	API에 String.java 제공  
     L01Variable l;	L01Variable.java를 사용자 정의로 구성  
       
+      
     2. 선언 위치에 따른 구분  
         1. 멤버 변수  
             - class {} 하위에 선언되는 모든 변수  
@@ -103,3 +105,4 @@ return 값;
         2. 로컬 변수(temporary, automatic, stack)  
             - 생성자와 메소드 () 즉 argument 또는 {} 내부에 선언되는 변수들  
             - 생성자나 메소드 호출시에만 메모리에 생성되었다가 생성자와 메소드가 실행 종료시에 자동 소멸  
+              
