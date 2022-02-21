@@ -1,0 +1,12 @@
+.width-default {
+    width: 100%;
+}
+
+/* border가 2px씩 적용되었기 때문에 296px로 출력된다!*/
+.width-px {
+    width: 300px;
+}
+
+.width-pct {
+    width: 50%;
+}

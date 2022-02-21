@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="mindstudio main page.">
+    <meta name="author" content="Hun">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindspace studio main</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Mindsapce studio</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">History</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Game</a></li>
+                </ul>
+            </nav><!-- nav>ul>liv*3>a -->
+        </header>
+        <section>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, tempore!
+                </p> <!-- lorem ipsum : dummy test, lorem10 -> 10개의 더미 텍스트-->
+
+                <p>Menu</p>
+                <ol>
+                    <li>아이스아메리카노</li>
+                    <li>카페라떼</li>
+                    <li>카푸치노</li>
+                    <li>요거트 스무디</li>
+                </ol>
+
+                <figure>
+                    <img src="mindspace-studio.jpg" alt="mindspace-studio room"> <!-- alt : (alternative) 이미지가 깨졌을 때, 대체 텍스트 -->
+                    <!-- 임시로 쓰는 이미지 사이트 : http://placehold.it-->
+                    
+                    <figcaption>Mindspace studio room</figcaption>
+
+                </figure>
+            </article>
+            
+            <article>
+                <h2>메뉴 제안</h2>
+
+                <form action="action/">
+                    <label for="menu-name">메뉴 이름: </label> <!-- label : 포커싱을 id에 맞춰준다 -->
+                    <input type="text" name="menuName" id="menu-name"><br/><br/>
+                    <!-- name은 객체, id는 -->
+
+                    <label for="menu-desc">메뉴 설명: </label> 
+                    <input type="text" name="menuName" id="menu-desc"><br/><br/>
+                    <label for="menu-name">이메일: </label>
+                    <input type="email" name="userEmail" id="user-email"><br/><br/>
+                    <label for="menu-name">비밀번호: </label>
+                    <input type="password" name="userPassword" id="user-password"><br/><br/>
+
+                    <button type="submit">등록</button>
+                    <button type="reset">취소</button>
+                </form>
+            </article>
+
+            <aside>
+                <!-- 예시) 광고 영역 -->
+                <p>광고, 다이나핏 다운패딩 '2월' 특가 60% 119,600원</p>
+            </aside> <!-- side부분 -->
+
+        </section><!-- 특정 영역 구분-->
+    </main> <!-- sementic tag -->
+    
+    <footer>
+        <p>1. 주소 : 경기도 </p>
+        <p>2. 연락처 : 010 - 0000 - 0000</p>
+    </footer>
+</body>
+</html>
+
+<!-- https://www.typingclub.com/ 영타연습-->

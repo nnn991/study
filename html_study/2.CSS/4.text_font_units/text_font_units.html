@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Text / Font-family / Units</title>
+    <link rel="stylesheet" href="text_font_units.css">
+    
+    <!-- google web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Oswald&family=Raleway:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>CSS Text / Font-family / Units</h1>
+
+    <h2>Text / Font-family</h2>
+    <table>
+        <tr class="tbl">
+            <th>Text</th>
+            <th>Column</th>
+            <th>Font-family(style)</th>
+        </tr>
+        <tr class="brower-color">
+            <td>브라우저 기본 폰트 텍스트</td>
+            <td>red</td>
+            <td>Brower default</td>
+        </tr>
+        <tr class="google-hex">
+            <td>Google web font 텍스트</td>
+            <td>#a52a2a(brown hex color)</td>
+            <td>Oswald</td>
+        </tr>
+        <tr class="google-rgb">
+            <td>Google web Font 텍스트</td>
+            <td>RGB(0, 255, 0)</td>
+            <td>fuzzy Bubbles</td>
+        </tr>
+        <tr class="google-rgba">
+            <td>Google wev font 텍스트</td>
+            <td>RGBA(0, 0, 255, 0.4)</td>
+            <td>Raleway</td>
+        </tr>
+    </table>
+
+    <h2>Units</h2>
+    <hr><br>
+
+    <div class="px-parent">
+        px-parent text
+        <div class="px-child">
+            px-child text
+        </div>
+    </div>
+
+    <br><hr>
+
+    <!-- em : (relative to parent element) %와 동일-->
+    <!-- em은 한번에 코드에 적용된 글씨크기를 변경할 수 있다.-->
+    <div class="em-parent">
+        <div class="em-child">em-child text</div>
+    </div>
+
+    <br><hr>
+
+    <!-- rem : (relative to root element) 루트(default : 10px)에 저장된 폰트사이즈의 크기에따라 지정 -->
+    <div class="rem-parent">
+        rem-parent text 
+        <div class="rem-child">
+            rem-child text
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+
+    <link rel="stylesheet" href="specificity.css">
+
+</head>
+<body>
+    <h1>CSS 적용범위, 명시도 or 구체성(CSS Specificity)</h1>
+    <hr>
+
+    <p>Universal Selector(*)</p>
+    <p>타입 or 태그 선택자(Tag or Type selector)</p>
+    <p class="class-selector">클래스 선택자(Class selector)</p>
+    <p class="class-selector" id="id-selector">아이디 선택자(Id selector)</p>
+    
+
+    <hr>
+    가장 우선순위가 높은 것 <br>
+    <p class="class-selector" id="id-selector" style="color: purple;">인라인 선택자(Inline selector)</p>
+
+    <hr>
+    우선순위는 계산하는 방식이 따로 있다. <br>
+    명시도 계산(specificity caculator) <br>
+</body>
+</html>

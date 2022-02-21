@@ -1,0 +1,51 @@
+.boxes {
+    position: relative;
+    background: honeydew;
+    border: 1px solid hotpink;
+
+    margin-top: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    border: 1px solid hotpink;
+    font-size: 30px;
+    margin: 20px auto;
+}
+
+#box1 {
+    position: static; /* default */
+}
+
+#box2 {
+    background: palegreen;
+    /* 기본값은 아니지만 자기 자신의 위치를 기준으로 이동, 혼자서는 잘 안쓰인다. */
+    position: relative;
+    /* top: 20px; */
+
+    /* 밀어내기 때문에 입력한 방향과 반대로 움직인다 */
+
+     /* 부모요소 기준, 요소의 위치가 떠서 빈자리가 생긴다 */
+    /* body영역 기준으로 이동 */
+    /* position: absolute; */
+
+    /* top: 20px;
+    left: 20px; */
+}
+
+#box3 {
+    background: sandybrown;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#box4 {
+    background: tomato;
+    position: fixed; /*소셜커머스에서 상단 배너가 따라오는것*/
+    top: 20px;
+    left: 20px;
+}

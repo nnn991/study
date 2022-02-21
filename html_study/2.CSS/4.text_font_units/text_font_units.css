@@ -1,0 +1,56 @@
+/* , 를 이용해 선택자를 여러개 지정 가능*/
+table, td, th { 
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    border-spacing: 10px;
+    margin: 0 auto;
+}
+
+tr, td {
+    padding: 10px;
+}
+
+.brower-color {
+    color: red;
+}
+
+.google-hex {
+    color: #a52a2a;
+    font-family: 'Oswald', sans-serif;
+}
+
+.google-rgb {
+    color: RGB(0, 255, 0);
+    font-family: fuzzy Bubbles;
+}
+
+.google-rgba {
+    color: RGBA(0, 0, 255, 0.4);
+    font-family: 'Raleway', sans-serif;
+}
+
+.px-parent {
+    /* font-size: 16px; 브라우저 기본 사이즈 */
+
+}
+
+.px-child {
+    font-size: 16px;
+}
+
+.em-parent {
+    font-size: 3em;
+}
+
+.em-child {
+    font-size: 0.5em;
+}
+
+.rem-parent {
+    font-size: 3rem;
+}
+
+.rem-child {
+    font-size: 0.5rem;
+}

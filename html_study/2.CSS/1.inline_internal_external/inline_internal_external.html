@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline_internal_external</title>
+    
+    <style>
+        .internal{
+            color: crimson;
+            font-size: 40px; /* fz40 */
+        }
+    </style>
+    <link rel="stylesheet" href="inline_internal_external.css">
+</head>
+<body>
+    <h1>CSS 스타일 적용 방식(CSS Styling)</h1>
+    <hr>
+
+    <!-- inline은 우선순위가 높게 잡힌다. 또한 중복성이 크기 때문에 권장하지 않는다. -->
+    <p style="color: teal; font-size: 30px">Inline style로 적용된 CSS.</p>
+    
+    <p class="internal">Internal style로 적용된 CSS</p>
+    <!-- 위 style tag로 묶어서 적용 -->
+
+    <p class="external">External style로 적용된 CSS</p>
+    <!-- 외부 파일로 빼 놓는다.-->
+</body>
+</html>

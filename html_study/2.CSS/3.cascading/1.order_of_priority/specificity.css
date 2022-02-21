@@ -1,0 +1,17 @@
+* {
+    color: crimson;
+}
+
+/* 우선순위는 아래로 갈수록 세진다 */
+p {
+    font-size: 30px;
+    color: orange;
+}
+
+.class-selector {
+    color: greenyellow;
+}
+
+#id-selector {
+    color: blue;
+}

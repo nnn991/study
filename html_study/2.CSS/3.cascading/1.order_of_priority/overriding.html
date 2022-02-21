@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 코드 순서(CSS Overriding)</title>
+    
+    <link rel="stylesheet" href="overriding.css">
+
+    <style>
+        .internal-vs-external {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS 코드 순서(CSS Overring)</h1>
+    <hr>
+
+    <h2>같은 type으로 중복 지정하였을 경우</h2>
+    <p>무슨 색이 될까?</p>
+    마지막으로 지정한 색상으로 변경된다. 
+
+    <hr>
+
+    <h2>Internal vs External style 우선순위</h2>
+    <div class="internal-vs-external">
+        <p>Internal vs External style</p>
+    </div>
+    외부 설정 파일이 우선시 된다? xx <br>
+    link의 위치에 따라서 달라진다! <br>
+    div class에 가까울수록 우선시되어 적용된다!
+
+    <hr>
+
+    
+</body>
+</html>

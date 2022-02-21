@@ -1,0 +1,15 @@
+* {
+    box-sizing: content-box; /* box의 default*/
+    /* 보통은 border-box를 많이 쓴다 */
+}
+
+.box {
+    width: 300px;
+    border: 5px dashed slateblue;
+    background-color: beige;
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    /* margin: 6px; */
+    /* margin: 10px 20px 30px 40px; 시계방향 */
+}
